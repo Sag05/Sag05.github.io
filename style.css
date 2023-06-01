@@ -1,0 +1,38 @@
+/* -- Global -- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(73, 73, 73);
+}
+
+/* -- Title -- */
+
+/* -- All -- */
+#flex{
+    display: flex;
+}
+
+#marker{
+    width: 2px;
+    background-color: black;
+}
+/* -- Click Area -- */
+#stone-image{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+#money{
+    font-size: 30px;
+}
+
+/* -- Store -- */
+#store{
+    margin-left: 10px;
+}
+
+.store-item{
+    height: 50px;
+}

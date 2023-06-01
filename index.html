@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Game!</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Sag" />
+        <meta name="description" content="A fun website :D" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Idle Clicker!</h1>
+        </header>
+        <div id="flex">
+            <div id="click-area">    
+                <input type="image" src="stone.png" id="stone-image">
+                <script defer src="game.js"></script>
+                <p id="money">Money: 0</p>
+                <p id="earnings">Earnings/s: 0</p>
+            </div>
+            <div id="marker"></div>
+            <div id="store">
+                <p id="pickaxe-wood">Pickaxes: 0</p>
+                <p id="pickaxe-wood-cost">Cost: 10</p>
+                <input type="image" src="pickaxe-wood.png" id="pickaxe-wood-img" class="store-item">
+            </div>
+        </div>
+    </body>
+</html>
